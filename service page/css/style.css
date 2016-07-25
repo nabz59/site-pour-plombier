@@ -1,0 +1,40 @@
+/*
+css of site of the plomber
+ */
+
+body { /* propriete of the header */
+    padding-top: 70px;
+}
+
+.navbar-fixed-top .nav {
+    padding: 15px 0;
+}
+
+.navbar-fixed-top .navbar-brand {
+    padding: 0 15px;
+}
+
+.thumbnail img {
+    width: 100%;
+}
+
+}
+
+.thumbnail {
+    padding: 9px;
+    color: #333;
+}
+
+footer { /* propriete of the footer */
+    padding: 30px 0;
+}
+/* media queries */
+@media(min-width:768px) {
+    body {
+        padding-top: 100px;
+    }
+
+    .navbar-fixed-top .navbar-brand {
+        padding: 15px 0;
+    }
+}
